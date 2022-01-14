@@ -2,4 +2,4 @@
 
 # Heading 2 I am a first year CS/Bioinformatics student.
 
-*I enjoy coding and reading in my free time.*
+## Heading 3 *I enjoy coding and reading in my free time.*
