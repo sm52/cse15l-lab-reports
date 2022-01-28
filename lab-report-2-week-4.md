@@ -50,6 +50,10 @@ The second thing we noticed was that we were printing extra links. Out failure -
 
 Here is the symptom of our failure-inducing input:
 
+![Output 2](output2.png)
+
+As we can see we have one too many links as our actual, which is our symptom, something we did not want. 
+
 To fix this symptom we figured out that our bug was that we had to figure out our bug in our code. We realized we had a indexing error. To fix this bug we had to delete one line after our if-statement. 
 
 ![Image for the second bug](lr2git2.png)
@@ -57,3 +61,7 @@ To fix this symptom we figured out that our bug was that we had to figure out ou
 Our failure-inducing input was multiple links, where our symptom was one too many links. Tp fix this symptom we looked at our code where we found a bug about the indexing. To fix this but we had to delete one line, specifically line 18. 
 
 
+### 3) Third Bug: Special Cases
+
+We also realized that by playing around with the paranthesis and brackets there were many places where things could go wrong. We found that one of our failure-inducing inputs was
+` ()[] `. Just empty paranthesis which returned 
