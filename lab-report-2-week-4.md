@@ -13,13 +13,13 @@ We started off by trying to make sure our code would work for several inputs, wh
 
 ### 1) First Bug: Alternative Link
 
-The first thing we thought about was the format of what a linked looked like.
+The first thing we thought about was the format of what a link lookd like.
 
-` [alternative text](link.com) `
+``` [alternative text](link.com) ```
 
 This is the code for a link so we though about what could look similar immediately we thought about immages. 
 
-` ![alterntative text](imagelink.com)`
+``` ![alterntative text](imagelink.com)```
 
 The only difference here is the `!` in the beginning. Therefore we realized when we tested our file with an image we also got the image in our results. When we did not want an image. This was our failure-induced input. 
 
