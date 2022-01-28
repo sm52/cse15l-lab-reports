@@ -15,11 +15,11 @@ We started off by trying to make sure our code would work for several inputs, wh
 
 The first thing we thought about was the format of what a link lookd like.
 
-``` [alternative text](link.com) ```
+```[alternative text](link.com)```
 
 This is the code for a link so we though about what could look similar immediately we thought about immages. 
 
-``` ![alterntative text](imagelink.com)```
+```![alterntative text](imagelink.com)```
 
 The only difference here is the `!` in the beginning. Therefore we realized when we tested our file with an image we also got the image in our results. When we did not want an image. This was our failure-induced input. 
 
@@ -32,7 +32,7 @@ The sympton of this failure-inducing input was that we got the image link when w
 
 ![Output1](output1.png)
 
-As we can see in this photo we expected just two files but got three, one of those (in the middle) was the image file. This is not something we want to print. Our sympton is that we are printing something we did not intend to. Out bug comes from not handling the `!` in front of the image well.
+As we can see in this photo we expected just two files but got three, one of those (in the middle) was the image file. This is not something we wanted to print. Our symptom is that we are printing something we did not intend to. Our bug comes from not handling the `!` in front of the image well.
 
 Now to fix this bug we decided to add an if-statement that would help us rule out the `!` in the image links.
 
@@ -40,11 +40,11 @@ Now to fix this bug we decided to add an if-statement that would help us rule ou
 
 As we can see line 21-23 helps us fix the bug. 
 
-We saw that putting an image link was a failure-inducing input, therefore our sympton of that input was something different from what we expected. We expected just one link and instead got two, therefore to fix the bug we added an if-statement to rule out all weird links that we could have.
+We saw that putting an image link was a failure-inducing input, therefore our symptom of that input was something different from what we expected. We expected just one link and instead got two, therefore to fix the bug we added an if-statement to rule out all weird links that we could have.
 
 ### 2) Second Bug: Printing Extras
 
-The second thing we noticed was that we were printing extra links. Out failure - input was when we wanted to print multiple links, and our symptom was that we were getting one too many links. This symptom showed up when we inputed the if-statement for the images. 
+The second thing we noticed was that we were printing extra links. Out failure-inducing input was when we wanted to print multiple links, and our symptom was that we were getting one too many links. This symptom showed up when we inputed the if-statement for the images. 
 
 [Link to test-file4.md](test-file4.md)
 
@@ -64,13 +64,13 @@ Our failure-inducing input was multiple links, where our symptom was one too man
 ### 3) Third Bug: Special Cases
 
 We also realized that by playing around with the paranthesis and brackets there were many places where things could go wrong. We found that one of our failure-inducing inputs was
-` ()[] `. Just empty paranthesis which returned 
+` ()[] `. Just empty paranthesis which returned a memory error.
 
 Here is the link to the failure-inducing input file:
 
 [link to test-file3.md](test-file3.md)
 
-This failure-inducing input caused a symptom taht was a java heap space error. Since we were in a while loop the while loop just keeps repeating and causes our code to bug out.
+This failure-inducing input caused a symptom that was a java heap space error. Since we were in a while loop the while loop just keeps repeating and causes our code to bug out.
 
 ![Output 3](output3.png)
 
@@ -78,7 +78,7 @@ The bug with this symptom was that we were not checking for special paranthesis 
 
 ![Image for the third bug](lr2git3.png)
 
-In this third bug our failure-inducing input was a bunch of random paranthesis. Our symptom was a java heap space error that made our code freak out. The bug was in not accounting for those which we fixed by placing if-statements.
+In this third bug our failure-inducing input was a bunch of random paranthesis. Our symptom was a java heap space error that made our code freak out. The bug was because of not accounting for those which we fixed by placing if-statements.
 
 ---
 And there you are folks another step closer to becoming pro-coders.
