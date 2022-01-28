@@ -65,3 +65,21 @@ Our failure-inducing input was multiple links, where our symptom was one too man
 
 We also realized that by playing around with the paranthesis and brackets there were many places where things could go wrong. We found that one of our failure-inducing inputs was
 ` ()[] `. Just empty paranthesis which returned 
+
+Here is the link to the failure-inducing input file:
+
+[link to test-file3.md](test-file3.md)
+
+This failure-inducing input caused a symptom taht was a java heap space error. Since we were in a while loop the while loop just keeps repeating and causes our code to bug out.
+
+![Output 3](output3.png)
+
+The bug with this symptom was that we were not checking for special paranthesis or brackets. Therefore we added in if statements to account for that bug.
+
+![Image for the third bug](lr2git3.png)
+
+In this third bug our failure-inducing input was a bunch of random paranthesis. Our symptom was a java heap space error that made our code freak out. The bug was in not accounting for those which we fixed by placing if-statements.
+
+---
+And there you are folks another step closer to becoming pro-coders.
+Don't worry if some of this was complicated believe me, I thought so too, but take a deep breath and think. You got this y'all. See you later. Happy Coding!!!
