@@ -18,7 +18,7 @@ To do this I typed the command: `cd .ssh`
 
 Then I typed in `vim config` to access the configuration file.
 
-In the configruation file I typed in the information as shown in the picture below, and that helped my streamline my process. 
+In the configuration file I typed in the information as shown in the picture below, and that helped my streamline my process. 
 
 ![Vim Config file](vim_config.png)
 
