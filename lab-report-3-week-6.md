@@ -8,7 +8,7 @@ By Sakina Muckadam (CS Student at UCSD)
 
 This week my lab group and I worked on trying to streamline our ssh processes and make it faster. 
 
-### 1) First Step: Figure out how to change the settings
+### 1) First: Figure out how to change the settings
 
 We started off with figuring out how to access the files to change our host name to ieng6.
 
@@ -22,6 +22,7 @@ In the configruation file I typed in the information as shown in the picture bel
 
 ![Vim Config file](vim_config.png)
 
+This changed my hostname to ieng6 so now when I want to access that account all I have to do is type in `ieng6` instead of my username. 
 
 ### 2) On to checking it out!!!
 
@@ -29,7 +30,7 @@ Now that I had streamlined the process I had to check it out. Just like with all
 
 To do this I typed in `ssh ieng6` 
 
-`ieng6` is my hostname so now whenever I want to ssh into my school servere I just have to type in `ssh ieng6` this is so much better than having to remember my whoel username.
+`ieng6` is my hostname so now whenever I want to ssh into my school server I just have to type in `ssh ieng6`, this is so much better than having to remember my whole username.
 
 ![SSH](ssh.png)
 
