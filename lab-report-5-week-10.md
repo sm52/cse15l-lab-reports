@@ -1,4 +1,4 @@
-# Hello! Welcome to Lab 4 - Testing lots of files
+# Hello! Welcome to Lab 5 - Testing lots of files
 
 ## We are going to be talking about testing the lots of files and how we can make it easier plus we are going to be doing some compare and contrast with two different programs.
 
