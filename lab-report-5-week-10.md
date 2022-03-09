@@ -59,7 +59,7 @@ We think that the professor was correct in this implementation because we don't 
 
 For this bug we could do something similar but a little different to the solution to the first test. For this one we have to take into account the `!` in the image code. 
 
-We would have to fix something to do with the if statement again just like the first test. 
+We would have to fix something to do with the if statement again just like the first test. Since we already have something to check the ```!``` in the image link we would need to do more in depth testing and then figure out the problem.
 
 ![Second Test](first_test.png)
 
