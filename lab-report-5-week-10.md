@@ -33,6 +33,9 @@ The Professor got:
 
 ```[/foo`]```
 
+Expected:
+[not a link](/foo)
+
 We came to the conclusion that both of these were wrong because of the backticks. 
 
 When looking at our code I think the we could have fixed the problem by including a check for backticks in front if brackets which could have helped in our test case. 
@@ -54,6 +57,11 @@ We got:
 
 The professor got:
 ```[]```
+
+Expected:
+[![moon](moon.jpg)][ref]
+
+[ref]: /uri
 
 We think that the professor was correct in this implementation because we don't actually want to print the images we just want to print links.
 
